@@ -16,7 +16,7 @@ This script uses Selenium WebDriver to automate the process of identifying a fak
 1. Clone the repository or download the script.
 2. Update the `chromedriver` path in the script if necessary.
 3. Install
-Thank you for the clarification. Here's a simplified and revised explanation of the algorithm based on the assumption that the fake bar is lighter than the other bars:
+
 
 ### Overview of the Algorithm used
 The algorithm utilizes a divide and conquer strategy specifically tailored to identify a bar that is lighter than the rest. This method efficiently narrows down the potential candidates using a minimal number of weighings.
@@ -36,6 +36,6 @@ The algorithm utilizes a divide and conquer strategy specifically tailored to id
 4. **Identify the Fake Bar:** The last remaining bar after these steps is identified as the fake bar because it's the only one left unverified against others.
 
 
-### Output
+### Output:
 <img width="404" alt="Screenshot 2024-04-23 at 4 16 15 PM" src="https://github.com/NPriyaK/FetchChallenge/assets/102847203/bd4998e7-95a7-4b16-b709-58e87751e50d">
 
