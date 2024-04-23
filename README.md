@@ -34,4 +34,8 @@ The algorithm utilizes a divide and conquer strategy specifically tailored to id
    - This process continues, reducing the group size each time until only one bar remains.
 
 4. **Identify the Fake Bar:** The last remaining bar after these steps is identified as the fake bar because it's the only one left unverified against others.
- 
+
+
+### Output
+<img width="404" alt="Screenshot 2024-04-23 at 4 16 15 PM" src="https://github.com/NPriyaK/FetchChallenge/assets/102847203/bd4998e7-95a7-4b16-b709-58e87751e50d">
+
