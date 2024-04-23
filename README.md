@@ -3,6 +3,10 @@
 This script uses Selenium WebDriver to automate the process of identifying a fake bar in a virtual weighing puzzle hosted at "http://sdetchallenge.fetch.com/". The puzzle presents nine bars, one of which is fake (lighter than the other gold bars), and the task is to find the fake bar using a minimal number of weighings.
 <img width="639" alt="Screenshot 2024-04-23 at 4 06 28 PM" src="https://github.com/NPriyaK/FetchChallenge/assets/102847203/bec83609-f78a-4060-a9aa-61cf4f00b48a">
 
+  <img width="439" alt="Screenshot 2024-04-23 at 4 06 52 PM" src="https://github.com/NPriyaK/FetchChallenge/assets/102847203/0e1ccff2-8daa-475f-97d1-cdedf6ccad77">
+
+
+
 #### Prerequisites
 1. **Python:** Ensure Python is installed on your system.
 2. **Selenium:** Install Selenium library using `pip install selenium`.
@@ -30,5 +34,4 @@ The algorithm utilizes a divide and conquer strategy specifically tailored to id
    - This process continues, reducing the group size each time until only one bar remains.
 
 4. **Identify the Fake Bar:** The last remaining bar after these steps is identified as the fake bar because it's the only one left unverified against others.
-   <img width="439" alt="Screenshot 2024-04-23 at 4 06 52 PM" src="https://github.com/NPriyaK/FetchChallenge/assets/102847203/0e1ccff2-8daa-475f-97d1-cdedf6ccad77">
-
+ 
